@@ -112,8 +112,8 @@ export default {
           const token = response.data.signup.token;
           // Stocker les données de l'utilisateur
           this.saveUserData(user, token);
-          // Redirection vers l'écran Blog
-          this.$router.push({ path: "Blog" });
+          // Redirection vers l'écran Feed
+          this.$router.push({ path: "/feed" });
         })
         .catch(error => {
           // Error
