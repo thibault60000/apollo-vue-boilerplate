@@ -1,0 +1,9 @@
+# Endpoint du Service PRISMA
+endpoint: ${env:PRISMA_ENDPOINT}
+
+# Pour désactiver l'authentification :
+# disableAuth: true
+secret: ${env:PRISMA_SECRET}
+
+# Modèle de données
+datamodel: datamodel.prisma
